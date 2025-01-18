@@ -1,0 +1,30 @@
+linters:
+  enable-all: true
+  disable:
+    - exportloopref
+    - gochecknoglobals
+    - depguard
+    - err113
+    - revive
+    - nonamedreturns
+    - ireturn
+    - nlreturn
+    - wsl
+    - wrapcheck
+
+linters-settings:
+
+  interfacebloat:
+    max: 2
+
+  gocyclo:
+    min-complexity: 8
+
+  varnamelen:
+    max-distance: 10
+
+issues:
+  exclude:
+    - ST1001
+    - ST1003
+    - ST1023
