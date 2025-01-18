@@ -1,0 +1,9 @@
+{
+	"type":"record",
+	"name":"sample_record",
+	"fields":[
+		{"name":"name", "type":"string"},
+		{"name":"height", "type":"double"},
+		{"name":"active", "type":"boolean"}
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"type":"record",
+	"name":"sample_record",
+	"fields":[
+		{"name":"name", "type":{
+			"type":"fixed",
+			"size":16,
+			"logicalType": "uuid",
+			"name":"MapdName"
+		}},
+		{"name":"height", "type":"double"},
+		{"name":"active", "type":"boolean"}
+	]
+}
